@@ -1,0 +1,76 @@
+.app-banner-section {
+  padding: 4rem 0;
+}
+
+.app-banner-card {
+  background-color: var(--primary-red);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .app-banner-card {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.app-banner-content {
+  padding: 3rem;
+  color: white;
+  flex: 1;
+}
+
+.app-banner-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.app-banner-content p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  max-width: 400px;
+}
+
+.app-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.store-btn {
+  background-color: var(--bg-white);
+  color: var(--primary-red);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: transform 0.2s ease;
+}
+
+.store-btn:hover {
+  transform: translateY(-2px);
+}
+
+.app-banner-image {
+  flex: 1;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .app-banner-image {
+    display: block;
+    height: 100%;
+    min-height: 300px;
+  }
+  
+  .app-banner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

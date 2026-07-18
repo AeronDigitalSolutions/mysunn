@@ -1,0 +1,24 @@
+.announcement-bar {
+  background-color: var(--bg-beige);
+  color: var(--primary-red);
+  padding: 0.5rem 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-bottom: 1px solid var(--border-color);
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.marquee {
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+  font-family: var(--font-heading);
+  letter-spacing: 0.05em;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
