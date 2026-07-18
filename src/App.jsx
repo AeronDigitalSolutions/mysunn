@@ -56,6 +56,7 @@ function App() {
         <ProductRow 
           title="New Arrivals" 
           products={newArrivals} 
+          bgClass="bg-beige"
         />
         
         <LifestyleGrid />
@@ -64,6 +65,7 @@ function App() {
           title="Recommended For You" 
           highlight="AI" 
           products={recommended} 
+          bgClass="bg-beige"
         />
         
         <FeaturedBrands />

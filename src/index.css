@@ -15,6 +15,10 @@
   --font-body: 'Inter', sans-serif;
 }
 
+.bg-beige {
+  background-color: var(--bg-beige);
+}
+
 * {
   margin: 0;
   padding: 0;

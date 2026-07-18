@@ -1,17 +1,18 @@
 import React from 'react';
 import './ProductRow.css';
 
-const ProductRow = ({ title, highlight, products, viewAllLink = "#" }) => {
+const ProductRow = ({ title, highlight, products, viewAllLink = "#", bgClass = "" }) => {
   return (
-    <section className="product-row-section container">
-      <div className="section-header flex justify-between items-center">
-        <h2 className="section-title">
-          {highlight && <span className="text-red">{highlight}</span>} {title}
-        </h2>
-        <a href={viewAllLink} className="view-all-link">View All</a>
-      </div>
+    <section className={`product-row-section ${bgClass}`}>
+      <div className="container">
+        <div className="section-header flex justify-between items-center">
+          <h2 className="section-title">
+            {highlight && <span className="text-red">{highlight}</span>} {title}
+          </h2>
+          <a href={viewAllLink} className="view-all-link">View All</a>
+        </div>
 
-      <div className="product-scroll-row">
+        <div className="product-scroll-row">
         {products.map((product) => (
           <div key={product.id} className="product-card">
             <div className="product-image-container">
@@ -37,6 +38,7 @@ const ProductRow = ({ title, highlight, products, viewAllLink = "#" }) => {
             <button className="add-to-cart-btn">ADD TO CART</button>
           </div>
         ))}
+        </div>
       </div>
     </section>
   );
