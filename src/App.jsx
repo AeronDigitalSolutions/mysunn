@@ -24,7 +24,7 @@ function App() {
   ];
 
   const newArrivals = [
-    { id: 5, title: 'MINI PROJECTOR', description: 'Home Theater | Min 10 pcs', price: 4500, originalPrice: 6000, discount: '25% OFF', image: 'https://images.unsplash.com/photo-1585862705417-67012ef89366?auto=format&fit=crop&w=400&q=80', tag: 'NEW' },
+    { id: 5, title: 'MINI PROJECTOR', description: 'Home Theater | Min 10 pcs', price: 4500, originalPrice: 6000, discount: '25% OFF', image: 'https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=400&q=80', tag: 'NEW' },
     { id: 6, title: 'SMART PLUG WIFI', description: 'Home Automation', price: 450, originalPrice: 900, discount: '50% OFF', image: 'https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=400&q=80', tag: 'NEW' },
     { id: 7, title: 'BAMBOO CUTTING BOARD', description: 'Kitchenware | Min 50 pcs', price: 299, image: 'https://images.unsplash.com/photo-1581622558667-3419a8dc5f83?auto=format&fit=crop&w=400&q=80', tag: 'NEW' },
     { id: 8, title: 'YOGA MAT PRO', description: 'Fitness | Bulk 100 pcs', price: 350, originalPrice: 500, discount: '30% OFF', image: 'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?auto=format&fit=crop&w=400&q=80', tag: 'NEW' }
