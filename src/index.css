@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --primary-red: #c61f2a;
-  --primary-red-hover: #b01a24;
-  --bg-white: #ffffff;
-  --bg-offwhite: #fdfdfd;
-  --bg-beige: #f9f6ef;
+  --primary-red: #9e141d;
+  --primary-red-hover: #7d0e15;
+  --bg-white: #fdfaf6;
+  --bg-offwhite: #f4efe6;
+  --bg-beige: #e8dfd1;
   --text-dark: #1a1a1a;
-  --text-light: #777777;
+  --text-light: #666666;
   --text-white: #ffffff;
   --border-color: #e5e5e5;
   
